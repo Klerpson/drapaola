@@ -1,0 +1,32 @@
+.slider{
+  background-color: var(--secundario);
+  padding: 6em 20px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  gap: 1em;
+  overflow: auto;
+}
+
+.slider img{
+  border-radius: var(--radius);
+  object-fit: cover;
+}
+
+@media screen and (min-width: 940px) {
+  
+  .slider::-webkit-scrollbar{
+    width: 4px;
+    background-color: #fefefe;
+  }
+  
+  .slider::-webkit-scrollbar-track{
+    background: var(--acent);
+    border-radius: 16px;
+  }
+  
+  .slider::-webkit-scrollbar-thumb{
+    border-radius: 16px;
+    background: var(--principal);
+  }
+}

@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<article class="wrapper flow servicios">
+  {{content}}
+  <hr>
+  <h3>Encuentra más información sobre {{page.category|capitalize}}</h3>
+  <aside class="procedimientos">
+
+    {% assign maxRelated = 4 %}
+    {% assign minCommonTags =  1 %}
+    {% assign maxRelatedCounter = 0 %}
+  
+  
+    {% for post in site.posts %}
+  
+  
+      {% assign sameTagCount = 0 %}
+      {% assign commonTags = '' %}
+  
+      {% for tag in post.categories %}
+        {% if post.url != page.url %}
+          {% if page.categories contains tag %}
+            {% assign sameTagCount = sameTagCount | plus: 1 %}
+            {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+            {% assign commonTags = commonTags | append: tagmarkup %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+  
+      {% if sameTagCount >= minCommonTags %}
+  
+      <article class="post-home">
+        <img src="{{site.baseurl}}/img/{{post.hero}}" alt="{{post.alt}}" loading="lazy" width="160" height="160"">
+                  <a href="{{ site.baseurl }}{{ post.url }}">
+                    <h4>{{ post.h1 }}</h4>
+                  </a>
+                </article>
+  
+        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+        {% if maxRelatedCounter >= maxRelated %}
+          {% break %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </aside>
+  {% include cta.html %}
+
+</article>

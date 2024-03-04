@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    {% if page.noindex %}
+    <meta name="robots" content="noindex, nofollow" >
+    {% endif %}
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" >
+    <title>{{ page.title}}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160}}{% else %}{{ site.description}}{% endif %}" >
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" >
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}"> 
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" >
+    <meta name="language" content="es" >
+    <meta name="country" content="US" >
+    <meta name="generator" content="Jekyll 4.2.0" >
+    <meta name="author" content="{% if page.autor %}{{ page.autor}}{% else %}{{site.name}}{% endif %}">
+    <meta name="copyright" content="{% if page.copyright %}{{ page.copyright}}{% else %}{{site.author}}{% endif %}">
+    <meta name="owner" content="{{site.name}}" >
+    <meta name="distribution" content="global" >
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{site.baseurl}}/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{site.baseurl}}/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/img/favicon/apple-touch-icon-180x180.png">
+    <meta name="theme-color" content="#78a6cf">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <!-- END FAVICON -->
+    
+    <link rel="dns-prefetch" href="//maps.googleapis.com" >
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" >
+    <!-- PRELOADS AND LINKS -->
+    <link rel="preload" href="{{site.baseurl}}/css/style.css" as="style">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css" >
+    <link rel="preload" href="{{site.baseurl}}/css/fonts/styles.css" as="font">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/fonts/styles.css" >
+    <link
+      rel="preload"
+      as="font"
+      href="{{site.baseurl}}/css/fonts/merriweather-v30-latin-700.woff2"
+      type="font/woff2"
+      crossorigin
+    >
+    <link
+      rel="preload"
+      as="font"
+      href="{{site.baseurl}}/css/fonts/merriweather-v30-latin-900.woff2"
+      type="font/woff"
+      crossorigin
+    >
+    <link
+      rel="preload"
+      as="font"
+      href="{{site.baseurl}}/css/fonts/merriweather-v30-latin-regular.woff2"
+      type="font/woff2"
+      crossorigin
+    >
+    <link
+      rel="preload"
+      as="font"
+      href="{{site.baseurl}}/css/fonts/montserrat-v26-latin-700.woff2"
+      type="font/woff2"
+      crossorigin
+    >
+    <link
+      rel="preload"
+      as="font"
+      href="{{site.baseurl}}/css/fonts/montserrat-v26-latin-900.woff2"
+      type="font/woff"
+      crossorigin
+    >
+    <link
+      rel="preload"
+      as="font"
+      href="{{site.baseurl}}/css/fonts/montserrat-v26-latin-regular.woff2"
+      type="font/woff2"
+      crossorigin
+    >
+    
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K2DVS2W5');</script>
+    <!-- End Google Tag Manager -->
+    
+  </head>

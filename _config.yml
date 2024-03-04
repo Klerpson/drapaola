@@ -1,0 +1,27 @@
+baseurl: ''
+url: 'https://doctorapaolamanco.com'
+name: 'Paola Manco'
+author: Paola Manco
+whatsapp: https://api.whatsapp.com/send?phone=+573042480330&text=%F0%9F%91%8B%F0%9F%8F%BCHola%20doctora%20Paola.%20Por%20favor,%20reg%C3%A1leme%20m%C3%A1s%20info%20sobre%20sus%20servicios%20de%20cirug%C3%ADa%20pl%C3%A1stica
+telefono: tel://+573042480330
+
+markdown: kramdown
+
+permalink: :slug
+
+keep_files: [/img]
+
+compress_html:
+    clippings: []
+    comments: []
+    endings: []
+    ignore:
+    envs: []
+    blanklines: false
+    profile: false
+    startings: []
+
+collections:
+  posts:
+    output: true
+    permalink: "/:categories/:slug"

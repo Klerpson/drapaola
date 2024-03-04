@@ -1,0 +1,33 @@
+.datos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 2em 0;
+  align-items: center;
+}
+
+.datos div{
+  flex: 1 0 480px;
+  max-width: 100%;
+}
+
+.datos div ul{
+  display: grid;
+  gap: 1em;
+  border-left: 2px solid var(--accion);
+  margin-top: 2em;
+}
+
+.datos .redes{
+  display: flex;
+  gap: 1em;
+}
+
+.map{
+  box-shadow: var(--shadow);
+}
+
+.contacto-redes{
+  display: grid;
+  place-items: center;
+}

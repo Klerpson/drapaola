@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<main class="wrapper flow servicios">
+  <div class="servicios-intro">
+    <h2>{{page.h2}}</h2>
+    {% include boton.html num="2" %}
+  </div>
+  <img src="{{site.baseurl}}/img/{{page.hero}}" alt="{{page.alt}}">
+  <h4>{{page.intro}}</h4>
+  {{content}}
+</main>

@@ -1,0 +1,22 @@
+---
+layout: default
+title: "Infórmate con el blog del cirujano Hermes Gamba y toma tu decisión"
+description: "En este blog te comparto toda lo que necesitas para tomar la decisión de operarte con 3 pilares importantes: • Tranquilidad • Confianza • Seguridad"
+h1: Haz tu próxima cirugía plástica bien informada
+published: no
+---
+<section class="wrapper flow testimonios">
+  <h2>Aprende más del cirujano plástico Hermes Gamba</h2>
+  <p>Este blog es un diálogo abierto, así que te invito a que te sumerjas, preguntes y participes. Juntos, podemos descubrir cómo la cirugía plástica no solo cambia contornos, sino que también puede mejorar la confianza y la calidad de vida.</p>
+</section>
+<main class="wrapper flow procedimientos">
+        {% for servicio in site.posts %}
+        <article class="post-home">
+          <img src="{{site.baseurl}}/img/{{servicio.hero}}" alt="{{servicio.alt}}" loading="lazy" width="160" height="160">
+          <a href="{{site.baseurl}}{{servicio.url}}" title="{{servicio.h1}}">
+            <h4 class="title">{{servicio.title}} </h4>
+          </a>
+        </article>
+        {% endfor %}
+    {% include cta.html %}
+  </main>
