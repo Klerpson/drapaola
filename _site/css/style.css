@@ -783,6 +783,7 @@ clip-path: inset(0 -100vmax); */
   flex-wrap: wrap;
   gap: 2em;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-landing > div{

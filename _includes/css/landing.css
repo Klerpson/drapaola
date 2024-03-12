@@ -246,6 +246,7 @@
   flex-wrap: wrap;
   gap: 2em;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-landing > div{
