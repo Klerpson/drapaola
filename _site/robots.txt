@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 User-Agent: AdsBot-Google-Mobile
 User-Agent: AdsBot-Google
-Sitemap: https://hermesgamba.com/sitemap.xml
+Sitemap: https://doctorapaolamanco.com/sitemap.xml
