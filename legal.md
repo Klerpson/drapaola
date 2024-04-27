@@ -17,7 +17,7 @@ En esta página se detallan las instrucciones legales que se aplican a todos los
 
 ## Información y propiedad intelectual
 
-La información y los contenidos de todas las páginas de este Sitio Web han sido diseñados para proporcionar información general del municipio de Bogotá Cundinamarca y sobre los servicios de turismo y comercio que puedes encontrar aquí. Además, incluye la información de un blog sobre el destino de San Agustín como destino turístico, además de muchos actores del comercio del lugar.
+La información y los contenidos de todas las páginas de este Sitio Web han sido diseñados para proporcionar información general de los servicios que ofrece la doctora Paola y de todo lo relacionado con sus servicios y productos comerciales ofrecidos a quienes visitan y aceptan recibir este contenido al utilizar esta página web.
 
 Los derechos de propiedad intelectual sobre los contenidos y diseño gráfico de esta página Web pertenecen en exclusiva a {{page.propietario}}, quedando expresamente prohibido su reenvío, transmisión, modificación, reproducción, distribución, comercialización o transformación sin la autorización expresa, escrita e intransferible de {{page.propietario}}.
 
