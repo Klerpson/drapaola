@@ -2,7 +2,7 @@
 
   /*** COLORES ***/
   /* rgb */
-  --principal: #39375B;
+  --principal: #39375b;
   --accion: #745C96;
   --secundario: #131414;
   --acento: #94949B;
@@ -16,7 +16,6 @@
 
   /*** FUENTES ***/
   --fuenteTexto: 'Montserrat', sans-serif;
-  --fuenteTitulos: 'Merriweather', serif;
 }
 
 *,
@@ -71,11 +70,10 @@ p,
 li {
   word-wrap: break-word;
   font-size: clamp(1rem, 0.942rem + 0.29vw, 1.16rem);
-  max-width: 732px;
 }
 
 a {
-  text-decoration-thickness: 2.6px;
+  text-decoration:none;
   font-weight: 900;
   color: var(--accion);
   transition: all .1s ease-out;
@@ -86,7 +84,6 @@ a:hover:not(.logo) {
 }
 
 img {
-  display: block;
   max-width: 100%;
 }
 
@@ -97,21 +94,6 @@ strong {
 
 small {
   font-size: 16px;
-}
-
-input {
-  padding: 0.7rem;
-  border-radius: var(--radius);
-  border: none;
-  font-size: clamp(1rem, 0.8vw + 1rem, 1.2rem);
-  transition: all .1s ease-in;
-}
-
-input:active,
-input:hover,
-input::target-text {
-  border: none;
-  box-shadow: var(--shadow);
 }
 
 ul li {
@@ -130,7 +112,7 @@ ol li {
 }
 
 .blockquote {
-  width: min((100% - 2rem), 1260px);
+  width: min(calc(100% - 2rem), 1260px);
   padding: 2em;
   margin: 4em auto;
   box-shadow: var(--shadow);
@@ -181,6 +163,8 @@ table td,
 table th {
   flex: 1 0 120px;
   max-width: 100%;
+  word-wrap: break-word;
+  font-size: clamp(1rem, 0.942rem + 0.29vw, 1.16rem);
 }
 
 .boton_1 {
@@ -244,28 +228,29 @@ table th {
 
 hr {
   border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgba(57,55,91, 0),
+    rgba(57,55,91, 0.75),
+    rgba(57,55,91, 0)
+  );
+  margin: 0 0 2.4em 0;
 }
 
 .wrapper {
-  width: min((100% - 2rem), 1260px);
+  width: min(calc(100% - 2rem), 1260px);
   margin-inline: auto;
   padding: 6rem 0;
 }
 
-.flow>*+* {
-  margin-top: 1em;
+.contenido {
+  width: min(calc(100% - 2rem), 1260px);
+  margin-inline: auto;
 }
 
-.call-to-action{
-  border: 2px solid var(--accion);
-  padding: 2rem;
-  display: grid;
-  gap: 1.2em;
-  place-items: center;
-  text-align: center;
-  margin: 2em auto;
+.flow>*+* {
+  margin-top: 1em;
 }
 
 .boton-whatsapp {
@@ -303,6 +288,19 @@ hr {
 
 .resaltar{
   color: var(--accion);
+}
+
+
+@media screen and (max-width: 440px) {
+  .content{
+    grid-template-areas:
+    "img"
+    "h4"
+    "h3"
+    "p"
+    "boton"
+    "a";
+  }
 }
 
 /* background-color: var(--secundario);

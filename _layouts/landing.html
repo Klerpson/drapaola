@@ -1,0 +1,43 @@
+---
+layout: default
+---
+{% include head.html %}
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <!-- End Google Tag Manager (noscript) -->
+  {{content}}
+  <a href="{{site.whatsapp}}" class="boton-whatsapp">
+    <img src="{{'/img/whatsapp-logo.webp'|relative_url}}" alt="Logo de WhatsApp">
+  </a>
+  <script>
+    const items = document.querySelectorAll(".accordion button");
+
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute("aria-expanded");
+
+      for (i = 0; i < items.length; i++) {
+        items[i].setAttribute("aria-expanded", "false");
+      }
+
+      if (itemToggle == "false") {
+        this.setAttribute("aria-expanded", "true");
+      }
+    }
+
+    items.forEach((item) => item.addEventListener("click", toggleAccordion));
+
+    // Galeria☺
+    console.clear();
+
+    Splitting({
+      target: ".tiler",
+      by: "cells",
+      rows: 3,
+      columns: 3,
+      image: true,
+    });
+  </script>
+  <script src="/js/fslightbox.js"></script>
+</body>
+</html>

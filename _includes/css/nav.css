@@ -1,11 +1,20 @@
+nav{
+  background-color: #fefefe;
+  position: relative;
+  padding: 24px;
+  display: flex;
+  gap: 12px;
+}
+
 .sidenav {
+box-shadow: var(--shadow);
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 101;
   top: 0;
   right: 0;
-  background-color: var(--gris1);
+  background-color: #fefefe;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -17,9 +26,8 @@
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
-  text-decoration: none;
   font-size: 1.5rem;
-  color: #f1f1f1;
+  color: var(--accion);
   display: block;
   transition: 0.3s;
   z-index: 105;
@@ -44,12 +52,11 @@
 }
 
 .toggle{
-  font-size:30px;
+  font-size:24px;
   cursor:pointer;
   position: fixed;
-  top: 24px;
+  top: 20px;
   right: 24px;
   color: var(--accion);
-  mix-blend-mode: exclusion;
   z-index: 100;
 }

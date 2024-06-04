@@ -1,36 +1,4 @@
 /***************** OTROS ESTILOS PERSONALIZADOS PARA LANDING Y MÁS *********************/
-.header-landing{
-  background-color: transparent;
-  background-image: linear-gradient(205deg, #0F0D09 47%, #7C839E 100%);
-  -webkit-clip-path: ellipse(100% 58% at 39% 42%);
-          clip-path: ellipse(100% 58% at 39% 42%);
-}
-
-.header-landing > div{
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2em;
-  min-height: 86dvh;
-  color: white;
-  align-items: center;
-  justify-content: left;
-}
-
-.header-landing div > div{
-  flex: 1 0 400px;
-  max-width: 100%;
-}
-
-.header-landing h1{
-  text-transform: uppercase;
-}
-
-.header-landing img{
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-}
-
 .puntos-dolor > div {
   padding: 4em 0;
   display: grid;
@@ -272,16 +240,15 @@
   gap: 1em;
   align-items: center;
   justify-content: space-between;
-}
-
-.footer-landing-2 ul{
   font-weight: 700;
   color: var(--principal);
 }
 
 .footer-landing-2 ul li{
+  flex: 1 0 400px;
   margin: 0;
   display: flex;
+  justify-content: center;
   gap: 8px;
   align-items: center;
 }

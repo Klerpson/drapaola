@@ -1,99 +1,45 @@
-{% assign url = page.url %}
-{% case url %}
-  {% when "/" %}
-  <header class="header-home">
-    <div>
-      <img src="{{'img/logotipo.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-      <p>Resuelve tus inseguridades y alcanza <strong>la imagen que siempre has deseado</strong></p>
-      <h1>Como cirujano plástico, puedo ayudarte a lograrlo</h1>
-      <a href="{{site.whatsapp}}" title="WhatsApp del cirujano Hermes Gamba" class="boton boton_2">
-        <svg height="18" width="18" fill="var(--accion)" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle"> <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path> </svg> Programa tu consulta</a>
+{% assign layout = page.layout %}
+{% case layout %}
+  {% when "default" %}
+  <header class="header_home">
+    <div class="flow">
+      <h1>Cirujana Paola Manco</h1>
+      <p>Con la doctora Paola Manco, encontrarás la experta en cirugía plástica que te acompaña hacia el cambio que anhelas en tu cuerpo y tu vida.</p>
+      <div class="flow cta_home">
+        <a href="{{site.whatsapp}}" class="boton boton_2">→ Escríbeme</a>
+        <a href="https://www.instagram.com/reel/C69UIJbO5C_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="boton boton_1 cta-video"><img src="{{'img/play.svg' | relative_url}}" alt="Ícono del botón play para un video de la doctor Paola Manco" width="20" height="24"> Conóceme</a>
+      </div>
     </div>
-    <img src="{{'img/doctor-hermes-gamba.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
+    <img src="{{'img/cirugia_home.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
   </header>
-  {% when "/contacto", "/mamoplastia" %}
-     <header class="header-contacto">
-       <div>
-         <div class="text-hero flow">
-           <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-           <h1>{{page.h1}}</h1>
-           {% if page.intro %}
-           <p>{{page.intro}}</p>
-           {% endif %}
-         </div>
-       </div>
-     </header>
-  {% when "/lipoescultura" %}
-  <header class="header-lipoescultura">
-    <div>
+  {% when "landing" %}
+  <header class="header-landing">
+    <div class="wrapper">
+      <div  class="flow">
+        <img src="{{'img/logotipo-blanco.webp'|relative_url}}" alt="Doctora Paola Manco">
+        <p>Transforma tu cuerpo, revitaliza tu confianza. Con la Doctora Paola Manco, encontrarás la experta en cirugía plástica que te acompaña <strong>hacia el cambio que anhelas, ofreciéndote un proceso cuidadoso y resultados impresionantes</strong>.</p>
+        <h1>Consigue tu consulta para tu cirugía hoy</h1>
+        <a class="boton-landing" href="{{site.whatsapp}}" target="_blank">
+          <svg height="18" width="18" fill="var(--accion)" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle"><path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"/></path></svg><span class="text">Programa una consulta</span></a>
+        </div>
+        <div>
+          <img src="{{'img/paola-manco.webp'|relative_url}}" alt="Doctora Paola Manco">
+        </div>
+      </div>
+    </header>
+  {% when "servicio" or "pagina" %}
+  <header class="header_servicio">
+    <div class="wrapper">
       <div class="text-hero flow">
-        <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
+        <img src="{{page.hero|relative_url}}" alt="{{page.alt}}">
         <h1>{{page.h1}}</h1>
         {% if page.intro %}
         <p>{{page.intro}}</p>
         {% endif %}
+        {% include boton.html num="2" %}
       </div>
     </div>
-  </header>
-  {% when "/gluteoplastia" %}
-  <header class="header-gluteoplastia">
-    <div>
-      <div class="text-hero flow">
-        <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-        <h1>{{page.h1}}</h1>
-        {% if page.intro %}
-        <p>{{page.intro}}</p>
-        {% endif %}
-      </div>
-    </div>
-  </header>
-  {% when "/rinoplastia" %}
-  <header class="header-rinoplastia">
-    <div>
-      <div class="text-hero flow">
-        <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-        <h1>{{page.h1}}</h1>
-        {% if page.intro %}
-        <p>{{page.intro}}</p>
-        {% endif %}
-      </div>
-    </div>
-  </header>
-  {% when "/lipopapada" %}
-  <header class="header-lipopapada">
-    <div>
-      <div class="text-hero flow">
-        <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-        <h1>{{page.h1}}</h1>
-        {% if page.intro %}
-        <p>{{page.intro}}</p>
-        {% endif %}
-      </div>
-    </div>
-  </header>
-  {% when "/bichectomia" %}
-  <header class="header-bichectomia">
-    <div>
-      <div class="text-hero flow">
-        <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-        <h1>{{page.h1}}</h1>
-        {% if page.intro %}
-        <p>{{page.intro}}</p>
-        {% endif %}
-      </div>
-    </div>
-  </header>
-  {% when "/blefaroplastia" %}
-  <header class="header-blefaroplastia">
-    <div>
-      <div class="text-hero flow">
-        <img src="{{'img/logo-blanco.webp'|relative_url}}" alt="Cirujano Hermes Gamba">
-        <h1>{{page.h1}}</h1>
-        {% if page.intro %}
-        <p>{{page.intro}}</p>
-        {% endif %}
-      </div>
-    </div>
+    <hr>
   </header>
   {% else %}
      This is not a cake nor a cookie

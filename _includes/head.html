@@ -12,10 +12,10 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}"> 
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" >
     <meta name="language" content="es" >
-    <meta name="country" content="US" >
+    <meta name="country" content="CO" >
     <meta name="generator" content="Jekyll 4.2.0" >
     <meta name="author" content="{% if page.autor %}{{ page.autor}}{% else %}{{site.name}}{% endif %}">
-    <meta name="copyright" content="{% if page.copyright %}{{ page.copyright}}{% else %}{{site.author}}{% endif %}">
+    <meta name="copyright" content="{% if page.autor %}{{ page.autor}}{% else %}{{site.author}}{% endif %}">
     <meta name="owner" content="{{site.name}}" >
     <meta name="distribution" content="global" >
     <!-- FAVICON -->
@@ -38,29 +38,8 @@
     <!-- PRELOADS AND LINKS -->
     <link rel="preload" href="{{site.baseurl}}/css/style.css" as="style">
     <link rel="stylesheet" href="{{site.baseurl}}/css/style.css" >
-    <link rel="preload" href="{{site.baseurl}}/css/fonts/styles.css" as="font">
+    <link rel="preload" href="{{site.baseurl}}/css/fonts/styles.css" as="style">
     <link rel="stylesheet" href="{{site.baseurl}}/css/fonts/styles.css" >
-    <link
-      rel="preload"
-      as="font"
-      href="{{site.baseurl}}/css/fonts/merriweather-v30-latin-700.woff2"
-      type="font/woff2"
-      crossorigin
-    >
-    <link
-      rel="preload"
-      as="font"
-      href="{{site.baseurl}}/css/fonts/merriweather-v30-latin-900.woff2"
-      type="font/woff"
-      crossorigin
-    >
-    <link
-      rel="preload"
-      as="font"
-      href="{{site.baseurl}}/css/fonts/merriweather-v30-latin-regular.woff2"
-      type="font/woff2"
-      crossorigin
-    >
     <link
       rel="preload"
       as="font"
@@ -82,14 +61,9 @@
       type="font/woff2"
       crossorigin
     >
-    
-
+       
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-K2DVS2W5');</script>
+    
     <!-- End Google Tag Manager -->
     
   </head>

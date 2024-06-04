@@ -1,0 +1,12 @@
+<div class="gallery-slider">
+  <img src="{{'img/logotipo-blanco.webp'|relative_url}}" width="320" height="136" alt="Logotipo Paola Manco">
+  <div class="slide-container">
+    {% for item in site.data.testimonios %}
+    <div class="flow">
+      <h3>{{item.name}}</h3>
+      <h4><span class="resaltar">{{item.origen}}</span></h4>
+      <p>{{item.texto}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>

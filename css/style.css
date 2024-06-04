@@ -7,6 +7,8 @@ index: no
 {% include css/home.css %}
 {% include css/nav.css %}
 {% include css/buscador.css %}
+{% include css/testimonios.css %}
+{% include css/carousel.css %}
 {% include css/landing.css %}
 {% include css/slider.css %}
 {% include css/footer.css %}
