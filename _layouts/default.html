@@ -2,8 +2,10 @@
 layout: compress
 ---
 {% include head.html %}
-  <body>
+<body>
+  {% if page.layout != "landing" %}
   {% include nav.html %}
+  {% endif %}
   {% include header.html %}
   <span class="toggle" onclick="openNav()">&#9776;</span>
   <!-- Google Tag Manager (noscript) -->
