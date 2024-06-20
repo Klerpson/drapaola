@@ -1265,6 +1265,7 @@ clip-path: inset(0 -100vmax); */
   padding-bottom: 4em;
   margin-bottom: 4em;
   border-bottom: 2px dashed whitesmoke;
+  align-items: center;
 }
 
 .footer > div{

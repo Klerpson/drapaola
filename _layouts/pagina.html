@@ -4,7 +4,9 @@ layout: default
 <main class="wrapper flow">
   {{content}}
 </main>
+{% if page.foto1 %}
 {% include servicios.html %}
+{% endif %}
 
 {% include cta.html %}
 {% include footer.html %}

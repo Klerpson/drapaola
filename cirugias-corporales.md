@@ -1,8 +1,8 @@
 ---
 layout: pagina
-title: "Haz tus cirugías faciales con seguridad | Paola Manco"
-description: "Quiero que te sientas increíble en tu propia piel, y nuestros servicios de cirugías faciales están diseñados para ayudarte a lograrlo."
-h1: Conoces los servicios de cirugías faciales de la doctora Paola Manco
+title: "Haz tus cirugías corporales y aumenta tu confianza"
+description: "Quiero que te sientas increíble en tu propio cuerpo, y nuestros servicios de cirugías corporales están diseñados para ayudarte a lograrlo."
+h1: Descubre los servicios de cirugías corporales de la doctora Paola Manco
 hero: img/cirugias-faciales.webp
 alt: Cirugías faciales Paola Manco
 h2_servicios: Las cirugías faciales que la doctora Paola Manco realiza
@@ -39,8 +39,8 @@ alt7: Resultado de Ritidectomía
 beneficio7: "Ritidectomía: Rejuvenece tu rostro, renueva tu vida"
 copy7: Luis quería combatir los signos de envejecimiento en su rostro y cuello. Con nuestra ritidectomía, logramos tensar la piel y eliminar el exceso, dándole una apariencia más joven y firme. Hoy, Luis luce una piel rejuvenecida que refleja su energía y vitalidad. ¿Listo para revitalizar tu apariencia?
 ---
-## Los tratamientos inyectables profesionales de la doctora Paola Manco
+## Conoce las cirugías corporales que la doctora Paola Manco realiza con éxito constante
 
-Tu piel cuenta una historia, y estamos aquí para ayudarte a que sea la mejor versión posible.
+Cada cuerpo tiene su propia historia y estoy aquí para ayudarte a escribir un nuevo capítulo lleno de confianza y satisfacción.
 
-Entiendo que cada línea y cada surco tiene su historia, y con nuestros avanzados servicios inyectables, te ofrecemos la oportunidad de escribir un nuevo capítulo lleno de confianza y juventud.
+Con nuestros avanzados servicios de cirugías corporales, te ofrecemos la oportunidad de transformar tu apariencia y realzar tu belleza natural.

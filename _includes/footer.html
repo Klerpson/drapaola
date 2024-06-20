@@ -18,18 +18,15 @@
       <p>Cirujana facial y corporal especializada en técnicas de última tecnología y en el trato humano de sus pacientes.</p>
     </div>
     <ul class="footer_columns">
-      <li><h3>Cirugías</h3></li>
-      <li><a href="{{'mamoplastia' | relative_url }}">Mamoplastia</a></li>
-      <li><a href="{{'mamoplastia' | relative_url }}">Rinoplastia</a></li>
-      <li><a href="{{'mamoplastia' | relative_url }}">Lipo HD</a></li>
-      <li><a href="{{'mamoplastia' | relative_url }}">Blefaroplastia</a></li>
-      <li><a href="{{'mamoplastia' | relative_url }}">Gluteoplatia</a></li>
+      <li><h3>Servicios</h3></li>
+      {% for enlace in site.data.servicios.nav %}
+      <li><a href="{{ enlace.url | relative_url }}" title="{{enlace.title}}">{{enlace.title}}</a></li>
+      {% endfor %}
     </ul>
     <ul class="footer_columns">
       <li><h3>Sobre mí</h3></li>
       <li><a href="{{'contacto' | relative_url }}">Contacto</a></li>
       <li><a href="{{'#' | relative_url }}">Quién soy</a></li>
-      <li><a href="{{'#' | relative_url }}">Casos de éxito</a></li>
     </ul>
     <div class="legal">
       <small><a href="{{site.baseurl}}/legal" title="Términos y condiciones legales" rel="nofollow">Términos y Condiciones</a></small>
