@@ -271,7 +271,7 @@ hr {
 
 @media screen and (width >=800px) {
   .boton-whatsapp::before {
-    content: "Escríbenos";
+    content: "Escríbeme";
     font-size: 14px;
     color: white;
     background-color: #2eda2e70;
