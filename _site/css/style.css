@@ -1263,7 +1263,6 @@ clip-path: inset(0 -100vmax); */
 
 .footer > div:first-child{
   padding-bottom: 4em;
-  margin-bottom: 4em;
   border-bottom: 2px dashed whitesmoke;
   align-items: center;
 }
