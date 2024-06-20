@@ -1386,6 +1386,7 @@ clip-path: inset(0 -100vmax); */
 
   img{
     box-shadow: var(--shadow);
+    object-fit: cover;
   }
 
   .servicio_copy{

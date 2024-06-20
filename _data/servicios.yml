@@ -14,3 +14,7 @@ items:
     title: Lipo HD
     descripcion: Define tu cintura y cadera
     content: La liposucción es ideal para personas que tienen depósitos de grasa que no responden a la dieta y el ejercicio. Los resultados esperados de la liposucción son una reducción en el volumen de grasa y una mejora en la forma y contorno del cuerpo.
+
+nav:
+  - url: faciales
+    title: Tratamiento faciales

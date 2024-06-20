@@ -21,6 +21,7 @@
 
   img{
     box-shadow: var(--shadow);
+    object-fit: cover;
   }
 
   .servicio_copy{

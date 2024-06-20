@@ -24,5 +24,32 @@
       <p>{{page.copy3}}</p>
     </div>
   </div>
+  {% if page.foto4 %}
+  <div class="contenido servicio_layout ">
+    <img src="{{ page.foto4 | relative_url}}" loading="lazy" alt="{{page.alt4}}" width="400" height="500">
+    <div class="servicio_copy flow">
+      <h3>{{page.beneficio4}}</h3>
+      <p>{{page.copy4}}</p>
+    </div>
+  </div>
+  {% endif %}
+  {% if page.foto5 %}
+  <div class="contenido servicio_layout ">
+    <img src="{{ page.foto5 | relative_url}}" loading="lazy" alt="{{page.alt5}}" width="400" height="500">
+    <div class="servicio_copy flow">
+      <h3>{{page.beneficio5}}</h3>
+      <p>{{page.copy5}}</p>
+    </div>
+  </div>
+  {% endif %}
+  {% if page.foto6 %}
+  <div class="contenido servicio_layout ">
+    <img src="{{ page.foto6 | relative_url}}" loading="lazy" alt="{{page.alt6}}" width="400" height="500">
+    <div class="servicio_copy flow">
+      <h3>{{page.beneficio6}}</h3>
+      <p>{{page.copy6}}</p>
+    </div>
+  </div>
+  {% endif %}
  
 </section>

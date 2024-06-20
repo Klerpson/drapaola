@@ -7,7 +7,6 @@ h2: "Descubre los secretos de una bichectomía exitosa: costos, recuperación y 
 intro: Consigue el contorno facial que siempre deseaste con la bichectomía. ¡Contacta al cirujano Hermes Gamba y programa tu consulta!
 hero: bichectomia.webp
 alt: Foto de una bichetomia
-published: no
 ---
 ## ¿Qué es la Bichectomía?
 
