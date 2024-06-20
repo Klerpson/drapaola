@@ -3,41 +3,40 @@ layout: pagina
 title: "Haz tus cirugías corporales y aumenta tu confianza"
 description: "Quiero que te sientas increíble en tu propio cuerpo, y nuestros servicios de cirugías corporales están diseñados para ayudarte a lograrlo."
 h1: Descubre los servicios de cirugías corporales de la doctora Paola Manco
-hero: img/cirugias-faciales.webp
-alt: Cirugías faciales Paola Manco
-h2_servicios: Las cirugías faciales que la doctora Paola Manco realiza
-foto1: 'img/frontoplastia.webp'
-alt1: Foto resultado Frontoplastia
-beneficio1: "Frontoplastia: Rejuvenece tu frente, ilumina tu rostro"
-copy1: "Cuando Carlos empezó a notar las arrugas profundas en su frente, sabía que era hora de un cambio. Con nuestra frontoplastia, logramos suavizar esas líneas y levantar las cejas, dándole un aspecto más joven y revitalizado. Ahora, Carlos se siente más seguro y su rostro refleja esa energía renovada. Tú también puedes experimentar esta transformación."
-foto2: 'img/blefaroplastia.webp'
-alt2: Foto resultados de Blefaroplastia
-beneficio2: "Blefaroplastia: Restaura la frescura en tu mirada"
-copy2: "Sofía se sentía constantemente cansada debido al exceso de piel en sus párpados. Con nuestra blefaroplastia, eliminamos esa piel sobrante y la acumulación de grasa, dándole a Sofía una mirada más abierta y fresca. Hoy, sus ojos reflejan la vitalidad y juventud que siente por dentro. ¿Te imaginas despertar cada mañana con una mirada descansada y rejuvenecida?"
-foto3: 'img/ceja.webp'
-alt3: Resultado de Levantamiento de cola de ceja
-beneficio3: "Levantamiento de cola de ceja: Eleva tu expresión"
-copy3: María quería darle un toque de frescura a su rostro sin alterar su esencia. Con el levantamiento de cola de ceja, logramos elevar y definir sus cejas, proporcionando una expresión más juvenil y radiante. Ahora, María disfruta de una apariencia natural y mejorada que resalta su belleza. Tú también puedes lograr este efecto.
-foto4: 'img/rinoplastia.webp'
-alt4: Resultado de rinoplastia
-beneficio4: "Rinoplastia: Redefine tu perfil, mejora tu respiración"
-copy4: Juan siempre había soñado con una nariz que armonizara mejor con sus facciones. Con nuestra rinoplastia, no solo logramos darle la forma deseada, sino que también mejoramos su respiración. Hoy, Juan se siente más seguro y respira con facilidad. Si deseas cambiar la apariencia de tu nariz o mejorar tu calidad de vida, nosotros podemos ayudarte.
-foto4: 'img/bichectomia.webp'
-alt4: Resultado de Bichectomía
-beneficio4: "Bichectomía: Acentúa tus pómulos, define tu rostro"
-copy4: Laura buscaba una manera de acentuar sus pómulos y obtener un rostro más definido. Con la bichectomía, eliminamos el exceso de grasa en sus mejillas, dándole una apariencia más esculpida y elegante. Ahora, Laura disfruta de un rostro más definido y atractivo. Tú también puedes realzar tus rasgos con este procedimiento.
-foto5: 'img/mentoplastia.webp'
-alt5: Resultado de Mentoplastia
-beneficio5: "Mentoplastia: Equilibra tu perfil, fortalece tu presencia"
-copy5: José deseaba un mentón más prominente para equilibrar sus rasgos faciales. Con nuestra mentoplastia, logramos darle la proyección que buscaba, mejorando la armonía de su rostro. Hoy, José luce un perfil más equilibrado y fuerte. Si buscas darle más definición a tu mentón, estamos aquí para ayudarte.
-foto6: 'img/lipopapada.webp'
-alt6: Resultado de Lipopapada
-beneficio6: "Lipopapada: Elimina la papada, redefine tu mandíbula"
-copy6: Marta estaba cansada de la papada que afectaba la definición de su mandíbula. Con nuestra lipopapada, eliminamos ese exceso de grasa, dándole una línea de mandíbula más definida y elegante. Ahora, Marta se siente más segura y su rostro refleja esa confianza. Tú también puedes disfrutar de un perfil más definido.
-foto7: 'img/ritidectomia.webp'
-alt7: Resultado de Ritidectomía
-beneficio7: "Ritidectomía: Rejuvenece tu rostro, renueva tu vida"
-copy7: Luis quería combatir los signos de envejecimiento en su rostro y cuello. Con nuestra ritidectomía, logramos tensar la piel y eliminar el exceso, dándole una apariencia más joven y firme. Hoy, Luis luce una piel rejuvenecida que refleja su energía y vitalidad. ¿Listo para revitalizar tu apariencia?
+hero: img/cirugia-corporal.webp
+alt: Cirugías corporales Paola Manco
+h2_servicios: Las cirugías corporales que la doctora Paola Manco realiza
+foto1: 'img/mamoplastia-paola-manco.webp'
+alt1: Foto resultado Mamoplastia
+beneficio1: "Mamoplastia de aumento: Realza tu feminidad, incrementa tu confianza"
+copy1: "Rocío siempre soñó con tener un busto más lleno y proporcionado. Con nuestra mamoplastia de aumento, logramos incrementar el tamaño de sus mamas y mejorar su forma. Hoy, Rocío se siente más segura y orgullosa de su silueta. ¿Quieres experimentar esta transformación? Estamos aquí para ayudarte."
+foto2: 'img/pexia-mamaria.webp'
+alt2: Foto resultados de Pexia Mamaria
+beneficio2: "Pexia Mamaria o levantamiento mamario: Eleva tu belleza, renueva tu figura"
+copy2: "Adriana deseaba corregir la posición de sus mamas después de la maternidad. Con nuestra pexia mamaria, logramos levantar y mejorar el aspecto general de su busto, devolviéndole una apariencia juvenil y firme. Ahora, Adriana se siente más cómoda y feliz con su cuerpo. Tú también puedes recuperar esa vitalidad."
+foto3: 'img/lipoescultura.webp'
+alt3: Resultado de Lipoescultura
+beneficio3: "Lipoescultura: Moldea tu cuerpo, redefine tus curvas"
+copy3: Laura quería eliminar la grasa acumulada en su abdomen y caderas para conseguir una figura más definida. Con nuestra lipoescultura, logramos extraer esa grasa no deseada y moldear su cuerpo de manera efectiva. Hoy, Laura disfruta de una silueta más esculpida y atractiva. ¿Listo para redefinir tus curvas?
+foto4: 'img/abdominal.webp'
+alt4: Resultado de Marcación abdominal
+beneficio4: "Luis siempre soñó con tener un abdomen definido y marcado. Con nuestra marcación abdominal, logramos esculpir su abdomen, resaltando sus músculos y creando un aspecto atlético. Ahora, Luis se siente más seguro y orgulloso de mostrar su cuerpo. Tú también puedes alcanzar ese look deseado."
+foto5: 'img/abdominoplastia.webp'
+alt5: Resultado de Lipectomía
+beneficio5: "Lipectomía – Abdominoplastia: Plano tu abdomen, refuerza tu confianza"
+copy5: Marta estaba cansada del exceso de piel y grasa en su abdomen después de varios embarazos. Con nuestra lipectomía, eliminamos ese exceso y reforzamos la musculatura de su pared abdominal. Hoy, Marta disfruta de un abdomen más plano y firme, sintiéndose renovada y segura. Tú también puedes experimentar este cambio.
+foto6: 'img/labioplastia.webp'
+alt6: Resultado de Labioplastia
+beneficio6: "Labioplastia: Mejora tu comodidad, realza tu estética"
+copy6: Milena quería sentirse más cómoda y mejorar la estética de su zona íntima. Con nuestra labioplastia, eliminamos el exceso de piel y, si es necesario, añadimos injertos de grasa para mejorar el volumen de los labios mayores. Ahora, Milena se siente más cómoda y segura en su propio cuerpo. ¿Buscas mejorar tu bienestar y estética? Podemos ayudarte.
+foto7: 'img/gluteoplastia.webp'
+alt7: Resultado de Gluteoplastia
+beneficio7: "Gluteoplastia: Aumenta tus glúteos, redefine tu silueta"
+copy7: Sofía siempre soñó con unos glúteos más llenos y redondeados. Con nuestra gluteoplastia, logramos aumentar y mejorar la forma de sus glúteos, dándole una silueta más atractiva. Hoy, Sofía se siente más segura y feliz con su cuerpo. Tú también puedes realzar tu figura
+foto8: 'img/pantorrilla.webp'
+alt8: Resultado de Implante de pantorrilla
+beneficio8: "Implante de pantorrilla: Fortalece tu perfil, mejora tu equilibrio"
+copy8: José deseaba mejorar el volumen de sus pantorrillas para un look más balanceado. Con nuestros implantes de pantorrilla, logramos darle esa definición y volumen deseado, creando una apariencia más equilibrada y fuerte. Hoy, José disfruta de una silueta más armoniosa. ¿Quieres fortalecer tu perfil? Estamos aquí para ayudarte.
 ---
 ## Conoce las cirugías corporales que la doctora Paola Manco realiza con éxito constante
 

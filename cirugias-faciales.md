@@ -22,10 +22,6 @@ foto4: 'img/rinoplastia.webp'
 alt4: Resultado de rinoplastia
 beneficio4: "Rinoplastia: Redefine tu perfil, mejora tu respiración"
 copy4: Juan siempre había soñado con una nariz que armonizara mejor con sus facciones. Con nuestra rinoplastia, no solo logramos darle la forma deseada, sino que también mejoramos su respiración. Hoy, Juan se siente más seguro y respira con facilidad. Si deseas cambiar la apariencia de tu nariz o mejorar tu calidad de vida, nosotros podemos ayudarte.
-foto4: 'img/bichectomia.webp'
-alt4: Resultado de Bichectomía
-beneficio4: "Bichectomía: Acentúa tus pómulos, define tu rostro"
-copy4: Laura buscaba una manera de acentuar sus pómulos y obtener un rostro más definido. Con la bichectomía, eliminamos el exceso de grasa en sus mejillas, dándole una apariencia más esculpida y elegante. Ahora, Laura disfruta de un rostro más definido y atractivo. Tú también puedes realzar tus rasgos con este procedimiento.
 foto5: 'img/mentoplastia.webp'
 alt5: Resultado de Mentoplastia
 beneficio5: "Mentoplastia: Equilibra tu perfil, fortalece tu presencia"
@@ -38,6 +34,10 @@ foto7: 'img/ritidectomia.webp'
 alt7: Resultado de Ritidectomía
 beneficio7: "Ritidectomía: Rejuvenece tu rostro, renueva tu vida"
 copy7: Luis quería combatir los signos de envejecimiento en su rostro y cuello. Con nuestra ritidectomía, logramos tensar la piel y eliminar el exceso, dándole una apariencia más joven y firme. Hoy, Luis luce una piel rejuvenecida que refleja su energía y vitalidad. ¿Listo para revitalizar tu apariencia?
+foto8: 'img/bichectomia.webp'
+alt8: Resultado de Bichectomía
+beneficio8: "Bichectomía: Acentúa tus pómulos, define tu rostro"
+copy8: Laura buscaba una manera de acentuar sus pómulos y obtener un rostro más definido. Con la bichectomía, eliminamos el exceso de grasa en sus mejillas, dándole una apariencia más esculpida y elegante. Ahora, Laura disfruta de un rostro más definido y atractivo. Tú también puedes realzar tus rasgos con este procedimiento.
 ---
 ## Los tratamientos inyectables profesionales de la doctora Paola Manco
 

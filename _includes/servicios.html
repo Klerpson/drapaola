@@ -60,5 +60,14 @@
     </div>
   </div>
   {% endif %}
+  {% if page.foto8 %}
+  <div class="contenido servicio_layout servicio_der">
+    <img src="{{ page.foto8 | relative_url}}" loading="lazy" alt="{{page.alt8}}" width="400" height="500">
+    <div class="servicio_copy flow">
+      <h3>{{page.beneficio8}}</h3>
+      <p>{{page.copy8}}</p>
+    </div>
+  </div>
+  {% endif %}
  
 </section>
