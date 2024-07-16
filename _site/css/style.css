@@ -887,8 +887,8 @@ box-shadow: var(--shadow);
 
 .carousel{
   display: flex;
-  -webkit-animation: scroll 60s linear infinite;
-  animation: scroll 60s linear infinite;
+  -webkit-animation: scroll 90s linear infinite;
+  animation: scroll 90s linear infinite;
   width: calc(400px * 26);
   overflow: hidden;
 }

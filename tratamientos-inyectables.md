@@ -6,7 +6,7 @@ h1: Tratamientos inyectables con la doctora Paola Manco
 hero: img/tratamiento-inyectable.webp
 alt: Tratamientos inyectables Paola Manco
 h2_servicios: Descubre nuestros servicios inyectables
-foto1: 'img/arrugas.webp'
+foto1: 'img/botox.webp'
 alt1: Foto resultado Toxina Botulínica
 beneficio1: "Toxina Botulínica: Suaviza tus arrugas, realza tu belleza"
 copy1: "Ana solía evitar las fotos debido a las arrugas en su frente y alrededor de sus ojos. Con nuestras inyecciones de toxina botulínica, logramos impedir temporalmente el movimiento de los músculos responsables de esas líneas. El resultado fue una piel más lisa y un rostro rejuvenecido. Hoy, Ana se siente más segura y no deja de sonreír ante la cámara. ¡Imagina lo que podemos hacer por ti!"
