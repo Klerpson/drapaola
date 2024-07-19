@@ -18,7 +18,7 @@ foto3: 'img/ceja.webp'
 alt3: Resultado de Levantamiento de cola de ceja
 beneficio3: "Levantamiento de cola de ceja: Eleva tu expresión"
 copy3: María quería darle un toque de frescura a su rostro sin alterar su esencia. Con el levantamiento de cola de ceja, logramos elevar y definir sus cejas, proporcionando una expresión más juvenil y radiante. Ahora, María disfruta de una apariencia natural y mejorada que resalta su belleza. Tú también puedes lograr este efecto.
-foto4: 'img/rinoplastia.webp'
+foto4: 'img/rinoplastia-paola-manco.webp'
 alt4: Resultado de rinoplastia
 beneficio4: "Rinoplastia: Redefine tu perfil, mejora tu respiración"
 copy4: Juan siempre había soñado con una nariz que armonizara mejor con sus facciones. Con nuestra rinoplastia, no solo logramos darle la forma deseada, sino que también mejoramos su respiración. Hoy, Juan se siente más seguro y respira con facilidad. Si deseas cambiar la apariencia de tu nariz o mejorar tu calidad de vida, nosotros podemos ayudarte.
