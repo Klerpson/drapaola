@@ -1,9 +1,9 @@
 ---
 layout: pagina
 title: "Tratamientos con tecnología de punta con Paola Manco"
-description: "Con la tecnología que utiliza la doctora Paola Manco verás que cada visita es un paso más hacia una versión tuya más segura y radiante."
-h1: Tratamientos con tecnología de punta con la doctora Paola Manco
-hero: img/tecnologia-paola-manco.webp
+description: "Con la tecnología que utiliza la Doctora Paola Manco verás que cada visita es un paso más hacia una versión tuya más segura y radiante."
+h1: Tratamientos con tecnología de punta con la Doctora Paola Manco
+hero: img/tecnologia-manco.webp
 alt: Teconología Paola Manco
 h2_servicios: Descubre nuestros servicios tecnológicos
 foto1: 'img/bodytite.webp'
@@ -31,7 +31,7 @@ alt6: Resultado de un HydraFacial
 beneficio6: "HydraFacial: Hidratación y frescura en cada sesión"
 copy6: Carlos quería una solución rápida y efectiva para la piel opaca y cansada. Con Hydrash, un tratamiento de hidratación intensiva, Carlos experimentó una limpieza profunda, exfoliación y nutrición en una sola sesión. Su piel ahora luce fresca, radiante y llena de vida.
 ---
-## La doctora Paola Manco te atiende con los últimos avances tecnológicos
+## En el consultorio de la Doctora Paola Manco te atendemos con los últimos avances tecnológicos
 
 Imagina mirarte al espejo y ver una versión más esculpida, rejuvenecida y vibrante de ti mismo. Cada línea y curva contando una historia de confianza renovada.
 

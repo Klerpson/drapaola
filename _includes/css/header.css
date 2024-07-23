@@ -14,9 +14,14 @@
 
 .header_home > div {
   position: relative;
-  width: min(100%, 520px);
+  width: min(100%, 480px);
   color: white;
   padding-bottom: 4em;
+}
+
+.header_home > img{
+  width: min(100%, 520px);
+
 }
 
 .cta_home{

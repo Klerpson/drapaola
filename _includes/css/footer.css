@@ -1,15 +1,7 @@
-.footer{
-  background-color: var(--principal);
-  box-shadow: 0 0 0 100vmax var(--principal);
-  clip-path: inset(0 -100vmax);
-  background-image: url("/img/bg.webp");
-  color: white;
-}
-
 .footer > div:first-child{
   padding-bottom: 4em;
-  border-bottom: 2px dashed whitesmoke;
   align-items: center;
+  border-bottom: dotted 2px var(--principal);
 }
 
 .footer > div{
@@ -27,7 +19,6 @@
 }
 
 .footer > div a{
-  color: white;
   display: flex;
   gap: 8px;
   align-items: center;
@@ -43,10 +34,6 @@
   margin-bottom: 2em;
   display: grid;
   place-items: start;
-}
-
-.footer_columns li a{
-  color: var(--accion);
 }
 
 .legal{

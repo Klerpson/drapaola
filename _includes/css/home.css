@@ -128,6 +128,17 @@
 .content {
   animation: fadeIn 0.5s ease-in-out;
   display: none;
+  align-items: center;
+  align-content: center;
+  justify-items: left;
+  gap: 1em;
+}
+
+@media screen and (min-width: 720px) {
+  
+.content {
+  animation: fadeIn 0.5s ease-in-out;
+  display: none;
   grid-template-areas: 
   "img h4"
   "img h3"
@@ -135,8 +146,10 @@
   "img boton"
   "img a";
   align-items: center;
+  align-content: center;
   justify-items: left;
   gap: 1em;
+}
 }
 
 .content.active {
@@ -153,14 +166,14 @@
 }
 
 .cta{
-  background-color: var(--secundario);
-  box-shadow: 0 0 0 100vmax var(--secundario);
-  background-image: url("/img/bg.webp");
+  background-color: var(--principal);
+  box-shadow: 0 0 0 100vmax var(--principal);
   clip-path: inset(0 -100vmax);
   color: white;
 }
 
 .cta > div{
+  color: white;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -174,7 +187,6 @@
 
 .cta_text h3{
   grid-area: h3;
-  color: var(--acento);
 }
 
 .cta_text p{
@@ -264,7 +276,7 @@
 
 .home_video div:first-child{
   position: relative;
-  width: min(100%, 440px);
+  width: min(100%, 520px);
 }
 
 .home_video div:first-child > img{

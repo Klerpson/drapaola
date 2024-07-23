@@ -1,19 +1,34 @@
 items:
-  - img: img/lipoinyeccion-glutea.webp
-    alt: Foto de una lipoinyeccion exitosa
-    title: Lipoinyección glútea
-    descripcion: Evita los implantes riesgosos
-    content: Con el empleo de técnicas seguras, materiales aprobados y un seguimiento exhaustivo durante el proceso de recuperación. Cumplo las expectativas realistas y los cuidados necesarios para garantizar resultados naturales y duraderos.
+  - img: img/lipo-hd-clienta.webp
+    alt: Foto de una Lipo hd exitosa
+    title: Lipoescultura
+    descripcion: Define tu cintura y cadera
+    content: La liposucción es ideal para personas que tienen depósitos de grasa que no responden a la dieta y el ejercicio. Los resultados esperados de la liposucción son una reducción en el volumen de grasa y una mejora en la forma y contorno del cuerpo.
   - img: img/mamoplastia.webp
     alt: Foto de una mamoplastia exitosa
     title: Mamoplastia
     descripcion: Aumenta y da forma a tus senos
     content: Realizo un estudio exhaustivo de las proporciones corporales, proyección deseada y preferencias estéticas de cada paciente. Luego, selecciono implantes de la marca, forma y tamaño adecuados para lograr un resultado armónico y natural.
-  - img: img/lipo-hd-clienta.webp
-    alt: Foto de una Lipo hd exitosa
-    title: Lipo HD
-    descripcion: Define tu cintura y cadera
-    content: La liposucción es ideal para personas que tienen depósitos de grasa que no responden a la dieta y el ejercicio. Los resultados esperados de la liposucción son una reducción en el volumen de grasa y una mejora en la forma y contorno del cuerpo.
+  - img: img/lipectomia.webp
+    alt: Foto de una lipectomia exitosa
+    title: Mommymakeover
+    descripcion: Recupera tu seguridad
+    content: Siente la alegría de poder mirar tu cuerpo esbelto y atractivo después del embarazo. La hermosa experiencia de ser mamá no tiene que dejarte con inseguridades debido a tu cuerpo por el resto de tu vida.
+  - img: img/morpheus8.webp
+    alt: Foto de la máquina Morpheus 8
+    title: Morpheus 8
+    descripcion: Renueva tu piel desde adentro
+    content: Esta avanzada tecnología de radiofrecuencia bipolar fraccionada no solo estimula la formación de colágeno, sino que trabaja en las capas más profundas de la piel, reorganizando sus elementos básicos.
+  - img: img/facetite.webp
+    alt: Resultado de un facetite
+    title: Facetite
+    descripcion: La revolución en rejuvenecimiento facial
+    content: Con este procedimiento mínimamente invasivo que utiliza energía de radiofrecuencia para tensar y suavizar la piel, vas a conseguir la solución perfecta. Tu rostro reflejará la juventud y la energía que sientes por dentro.
+  - img: img/bodytite.webp
+    alt: Foto resultado bodytite
+    title: Bodytite
+    descripcion: Moldea tu cuerpo, redefine tu confianza
+    content: ¿Estás cansada de las dietas y ejercicios que no logran atacar esas áreas rebeldes de grasa y flacidez? Con BodyTite, puedes ver cómo tu cuerpo se remodela de forma efectiva y segura, reduciendo grasa localizada y tensando la piel.
 
 nav:
   - url: tratamientos-con-tecnologia-de-punta

@@ -322,9 +322,14 @@ clip-path: inset(0 -100vmax); */
 
 .header_home > div {
   position: relative;
-  width: min(100%, 520px);
+  width: min(100%, 480px);
   color: white;
   padding-bottom: 4em;
+}
+
+.header_home > img{
+  width: min(100%, 520px);
+
 }
 
 .cta_home{
@@ -525,6 +530,17 @@ clip-path: inset(0 -100vmax); */
 .content {
   animation: fadeIn 0.5s ease-in-out;
   display: none;
+  align-items: center;
+  align-content: center;
+  justify-items: left;
+  gap: 1em;
+}
+
+@media screen and (min-width: 720px) {
+  
+.content {
+  animation: fadeIn 0.5s ease-in-out;
+  display: none;
   grid-template-areas: 
   "img h4"
   "img h3"
@@ -532,8 +548,10 @@ clip-path: inset(0 -100vmax); */
   "img boton"
   "img a";
   align-items: center;
+  align-content: center;
   justify-items: left;
   gap: 1em;
+}
 }
 
 .content.active {
@@ -550,14 +568,14 @@ clip-path: inset(0 -100vmax); */
 }
 
 .cta{
-  background-color: var(--secundario);
-  box-shadow: 0 0 0 100vmax var(--secundario);
-  background-image: url("/img/bg.webp");
+  background-color: var(--principal);
+  box-shadow: 0 0 0 100vmax var(--principal);
   clip-path: inset(0 -100vmax);
   color: white;
 }
 
 .cta > div{
+  color: white;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -571,7 +589,6 @@ clip-path: inset(0 -100vmax); */
 
 .cta_text h3{
   grid-area: h3;
-  color: var(--acento);
 }
 
 .cta_text p{
@@ -661,7 +678,7 @@ clip-path: inset(0 -100vmax); */
 
 .home_video div:first-child{
   position: relative;
-  width: min(100%, 440px);
+  width: min(100%, 520px);
 }
 
 .home_video div:first-child > img{
@@ -1254,18 +1271,10 @@ clip-path: inset(0 -100vmax); */
   }
 }
 
-.footer{
-  background-color: var(--principal);
-  box-shadow: 0 0 0 100vmax var(--principal);
-  clip-path: inset(0 -100vmax);
-  background-image: url("/img/bg.webp");
-  color: white;
-}
-
 .footer > div:first-child{
   padding-bottom: 4em;
-  border-bottom: 2px dashed whitesmoke;
   align-items: center;
+  border-bottom: dotted 2px var(--principal);
 }
 
 .footer > div{
@@ -1283,7 +1292,6 @@ clip-path: inset(0 -100vmax); */
 }
 
 .footer > div a{
-  color: white;
   display: flex;
   gap: 8px;
   align-items: center;
@@ -1299,10 +1307,6 @@ clip-path: inset(0 -100vmax); */
   margin-bottom: 2em;
   display: grid;
   place-items: start;
-}
-
-.footer_columns li a{
-  color: var(--accion);
 }
 
 .legal{
