@@ -8,15 +8,16 @@ layout: compress
   {% endif %}
   {% include header.html %}
   <span class="toggle" onclick="openNav()">&#9776;</span>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9NJVCTV"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
     {{ content }}
   <a href="#">{% include boton-up.html %}</a>
   <a href="{{site.whatsapp}}" class="boton-whatsapp">
     <img src="{{'img/whatsapp-logo.webp'|relative_url}}" alt="Logo de WhatsApp" width="48" height="48">
   </a>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9NJVCTV"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   </body>
   <script>
     function openNav() {
