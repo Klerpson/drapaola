@@ -415,7 +415,7 @@ clip-path: inset(0 -100vmax); */
 
 .home_principales h2{
   width: min(100%, 400px);
-  color: white;
+  color: #fff;
 }
 
 .home_principales ul{
@@ -439,7 +439,7 @@ clip-path: inset(0 -100vmax); */
 }
 
 .home_principales ul li a{
-  color: white;
+  color: #fff;
   text-decoration: underline;
   text-decoration-thickness: 3.2px;
   text-decoration-color: var(--accion);
@@ -485,14 +485,14 @@ clip-path: inset(0 -100vmax); */
   padding: 8px 16px;
   border-top: dashed 1.6px var(--gris2);
   border-radius: 8px;
-  font-weight: bold;
+  font-weight: 700;
   color: var(--accion);
 }
 
 .servicio_item.active,
 .servicio_item:hover {
   background-color: var(--accion);
-  color: white;
+  color: #fff;
 }
 
 .servicios_contenido{
@@ -572,11 +572,11 @@ clip-path: inset(0 -100vmax); */
   background-color: var(--principal);
   box-shadow: 0 0 0 100vmax var(--principal);
   clip-path: inset(0 -100vmax);
-  color: white;
+  color: #fff;
 }
 
 .cta > div{
-  color: white;
+  color: #fff;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -690,7 +690,7 @@ clip-path: inset(0 -100vmax); */
   position: absolute;
   bottom: 0;
   left: 40%;
-  background-color: white;
+  background-color: #fff;
   border: 2px solid var(--accion);
   padding: 20px;
   display: flex;
