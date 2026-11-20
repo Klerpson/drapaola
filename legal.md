@@ -9,7 +9,7 @@ propietario: Paola Manco
 ---
 ## ADVERTENCIA
 
-Descargo de responsabilidad: los cambios físicos de las personas y los resultados de nuestros testimonios que verás en esta u otras páginas o en mi material no son típicos y son el resultado de un seguimiento o guía profesional con expertos en Cirugía Plástica del equipo directo del Dr. Hermes Gamba. Estos cambios físicos, de salud y sus resultados se utilizan específicamente como ejemplos. Sus resultados variarán dependiendo de una amplia variedad de variables y factores.
+Descargo de responsabilidad: los cambios físicos de las personas y los resultados de nuestros testimonios que verás en esta u otras páginas o en mi material no son típicos y son el resultado de un seguimiento o guía profesional con expertos en Cirugía Plástica del equipo de la Dra. Paola Manco. Estos cambios físicos, de salud y sus resultados se utilizan específicamente como ejemplos. Sus resultados variarán dependiendo de una amplia variedad de variables y factores.
 
 ## Aviso legal para sitio web de {{page.web}}
 

@@ -47,7 +47,7 @@ La combinación de abdominoplastia y lipoescultura ofrece una transformación co
 
 ### Recuperación y Cuidados Post-Abdominoplastia
 
-La recuperación de una abdominoplastia requiere cuidados específicos para asegurar resultados óptimos. Los pacientes deben seguir las indicaciones del [cirujano plástico Hermes Gamba]({{site.baseurl}}/), como el uso de fajas y la limitación de actividades físicas durante el período de recuperación.
+La recuperación de una abdominoplastia requiere cuidados específicos para asegurar resultados óptimos. Los pacientes deben seguir las indicaciones del [cirujana plástica Paola Manco]({{site.baseurl}}/), como el uso de fajas y la limitación de actividades físicas durante el período de recuperación.
 
 ## Precios y Consideraciones Financieras
 
@@ -98,8 +98,6 @@ Antes de la cirugía, se realiza una evaluación completa para asegurar que el p
 ### Recomendaciones Preoperatorias para una Cirugía Exitosa
 
 Se aconseja a los pacientes seguir una serie de recomendaciones preoperatorias, como mantener un peso estable, evitar el tabaco y el alcohol, y prepararse para el período de recuperación.
-
-![Abdominoplastias realizadas por Hermes Gamba]({{'img/abdominoplastia-lipoescultura.webp'|relative_url}})
 
 ## Recuperación y Cuidados Post-Lipoescultura
 

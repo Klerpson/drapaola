@@ -1,7 +1,7 @@
 ---
 layout: servicio
 title: "Mamoplastia: Tu Proceso de Transformación Estética y Personal"
-description: Transforma tu apariencia y confianza con la mamoplastia. Conoce cómo el cirujano Hermes Gamba puede ayudarte. ¡Haz clic para más información!
+description: Transforma tu apariencia y confianza con la mamoplastia. Conoce cómo la cirujana Paola Manco puede ayudarte. ¡Haz clic para más información!
 h1: Luce unos senos hermosos con tu mamoplastia
 intro: ¿Te sientes insegura con el tamaño o forma de tus senos? ¿Has perdido volumen después de un embarazo o pérdida de peso? ¿Deseas una silueta más proporcionada y femenina?
 hero: 'img/cirugia-mamoplastia.webp'
